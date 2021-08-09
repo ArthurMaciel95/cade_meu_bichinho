@@ -1,0 +1,49 @@
+header {
+    box-shadow: 0px 3px 3px rgba(208, 208, 208, 0.344);
+}
+header nav {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .logo-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .logo-area li .logo {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+header nav .logo-area li .logo-text {
+    object-fit: contain;
+    height: 80px;
+    width: 80px;
+}
+
+header nav .menu {
+    display: flex;
+}
+
+header nav .menu li {
+}
+
+header nav .menu li a {
+    padding: 10px;
+    display: flex;
+
+    color: #797979;
+    font-size: var(--font-size-x-small);
+    transition: color 0.3s ease;
+}
+
+header nav .menu li a:hover {
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}

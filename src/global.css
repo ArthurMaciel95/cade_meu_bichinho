@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #f9645d;
+    --text-gray-color: #797979;
+    --font-size-large: 3.5rem;
+    --font-size-medium: 1.5rem;
+    --font-size-small: 1rem;
+    --font-size-x-small: 1rem;
+    --font-size-xx-small: 0.8rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: #eeeeee;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
