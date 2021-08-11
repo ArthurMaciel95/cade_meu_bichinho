@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./index.css";
-const button = ({ children }) => {
+const button = ({ children, url }) => {
     return (
-        <a href="#" className="btn">
+        <Link to={url} className="btn">
             {children}
-        </a>
+        </Link>
     );
 };
 

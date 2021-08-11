@@ -3,4 +3,6 @@
     color: white;
     background-color: var(--primary-color);
     border-radius: 5px;
+    width: fit-content;
+    margin: 10px 0px;
 }
