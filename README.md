@@ -7,7 +7,7 @@
 </p>
 
 
-#Gostaria de ajudar?
+### Gostaria de ajudar?
 
 1. clone o projeto na sua maquina.
 2. no terminal, digite: **npm install**
@@ -19,6 +19,7 @@
 ### O que falta fazer?
 
 #### FRONT END
+- [x] página principal.
 - [ ] página não encontrada.
 - [ ] página de login.
 - [ ] página de política de privacidade.
