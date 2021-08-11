@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../assets/image/cade_meu_bichinho_logo 1.png";
 import Button from "../Button/button";
 import logoTexto from "../../assets/image/Cadê Meu Bichinho_.png";
@@ -23,7 +24,7 @@ const Header = ({ links }) => {
                     {links.map(({ name, link }) => {
                         return (
                             <li>
-                                <a href={link}>{name}</a>
+                                <Link to={link}>{name}</Link>
                             </li>
                         );
                     })}

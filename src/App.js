@@ -1,16 +1,25 @@
 import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./Components/Header/Header";
-import Hero from "./Components/Hero/Hero";
-import SearchField from "./Components/SearchField/searchField";
 import menuHelpers from "./Helpers/Menu";
+import Home from "./pages/Home";
+import FindPets from "./pages/FindPets";
+import Purpose from "./pages/Purpose";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
     return (
-        <div>
+        <BrowserRouter>
             <Header links={menuHelpers} />
-            <Hero />
-            <SearchField />
-        </div>
+            <Switch>
+                <Route path="/find-pets" component={FindPets} />
+                <Route path="/purpose" component={Purpose} />
+                <Route path="/privacy-polity" component={PrivacyPolicy} />
+                <Route exact path="/" component={Home} />
+                <Route path="*" component={PageNotFound} />
+            </Switch>
+        </BrowserRouter>
     );
 }
 

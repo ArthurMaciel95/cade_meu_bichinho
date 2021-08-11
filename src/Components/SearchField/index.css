@@ -25,7 +25,6 @@
     flex: 2;
 }
 .input-section form:nth-child(2) {
-    border: 0px 1px 0px 1px solid #797979;
 }
 
 .input-section form select {
