@@ -22,9 +22,9 @@ use o comando:
 
 #### FRONT END
 - [x] página principal.
-- [ ] página não encontrada.
+- [x] página não encontrada.
 - [ ] página de login.
-- [ ] página de política de privacidade.
+- [x] página de política de privacidade.
 
 
 
