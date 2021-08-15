@@ -14,7 +14,9 @@
 3. pronto, projeto está pronto para seu modificado.
 
 
-
+### como rodar na sua maquina.
+use o comando:
+``npm start``
 
 ### O que falta fazer?
 
