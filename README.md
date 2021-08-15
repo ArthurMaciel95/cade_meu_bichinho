@@ -14,15 +14,17 @@
 3. pronto, projeto está pronto para seu modificado.
 
 
-
+### como rodar na sua maquina.
+use o comando:
+``npm start``
 
 ### O que falta fazer?
 
 #### FRONT END
 - [x] página principal.
-- [ ] página não encontrada.
+- [x] página não encontrada.
 - [ ] página de login.
-- [ ] página de política de privacidade.
+- [x] página de política de privacidade.
 
 
 
