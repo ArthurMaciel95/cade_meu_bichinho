@@ -5,7 +5,7 @@ import menuHelpers from "./Helpers/Menu";
 import Home from "./pages/Home";
 import FindPets from "./pages/FindPets/FindPets";
 import Purpose from "./pages/Purpose";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
+import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import PageNotFound from "./pages/PageNotFound";
 
 function App() {
