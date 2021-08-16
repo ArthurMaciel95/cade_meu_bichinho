@@ -1,0 +1,48 @@
+.find-pets {
+}
+
+.menu-filter {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 43px;
+    box-shadow: 0px 4px 4px #d6d6d64b;
+}
+
+.menu-filter .input-area {
+    display: flex;
+}
+
+.menu-filter p {
+    margin-bottom: 20px;
+    color: var(--text-gray-color);
+    display: flex;
+    align-items: center;
+}
+
+.menu-filter p object {
+    margin-left: 15px;
+}
+
+.find-pets .results-number {
+    margin: 10px 0px;
+}
+
+.find-pets .results-number small {
+    color: var(--text-gray-color);
+    font-size: 1rem;
+}
+
+.find-pets .results-number small span {
+    color: var(--primary-color);
+}
+
+.find-pets .results-search {
+    background-color: white;
+    box-shadow: 0px 4px 4px #d6d6d64b;
+    display: grid;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 8px;
+    grid-template-columns: repeat(4, 1fr);
+}
