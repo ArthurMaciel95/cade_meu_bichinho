@@ -3,7 +3,7 @@
 ### Projeto em Desenvolvimento!
 
 <p align="center">
-  <img src="https://github.com/ArthurMaciel95/cade_meu_bichinho/blob/main/media/pagina_inicial.png" width="900px" height="500px" alt="image project cadê meu bichinho">
+  <img src="https://github.com/ArthurMaciel95/cade_meu_bichinho/blob/main/frontend/media/pagina_inicial.png" width="900px" height="500px" alt="image project cadê meu bichinho">
 </p>
 
 
