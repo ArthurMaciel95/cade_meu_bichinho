@@ -4,6 +4,8 @@
 
 <p align="center">
   <img src="https://github.com/ArthurMaciel95/cade_meu_bichinho/blob/main/frontend/media/pagina_inicial.png" width="900px" height="500px" alt="image project cadê meu bichinho">
+    <img src="https://github.com/ArthurMaciel95/cade_meu_bichinho/blob/main/frontend/media/pagina_login_kd_meu_bichinho.png" width="900px" height="500px" alt="image project cadê meu bichinho">
+      <img src="https://github.com/ArthurMaciel95/cade_meu_bichinho/blob/main/frontend/media/pagina_nao_encontrada_cade_meu_bichinho.png" width="900px" height="500px" alt="image project cadê meu bichinho">
 </p>
 
 
